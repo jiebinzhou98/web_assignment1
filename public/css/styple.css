@@ -182,3 +182,23 @@ ul li a:hover{
     align-items: center;
     margin-top: 30px;
 }
+.container_contact .contactInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.container_contact .contactInfo .box{
+    position: relative;
+    padding: 20px;
+    display: flex;
+}
+.container_contact .contactInfo .box .icon{
+    min-width: 60px;
+    height: 60px;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
