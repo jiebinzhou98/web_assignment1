@@ -161,6 +161,7 @@ ul li a:hover{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background: url(/img/video-bg.jpg);
 }
 .contact .content_contact{
     max-width: 800px;
