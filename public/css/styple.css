@@ -217,11 +217,11 @@ ul li a:hover{
 .contactForm{
     width: 40%;
     padding: 40px;
-    background: gray;
+    background: black;
 }
 .contactForm h2{
     font-size: 30px;
-    color: gray;
+    color: black;
     font-weight: 500;
 }
 .contactForm .inputBox{
@@ -235,7 +235,7 @@ ul li a:hover{
     font-size: 16px;
     margin: 10px 0;
     border: none;
-    border-bottom: 2px solid gray;
+    border-bottom: 2px solid black;
     outline: none;
     resize: none;
 }
