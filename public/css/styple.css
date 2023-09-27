@@ -162,6 +162,7 @@ ul li a:hover{
     align-items: center;
     flex-direction: column;
     background: url(/img/video-bg.jpg);
+    background-size: cover;
 }
 .contact .content_contact{
     max-width: 800px;
@@ -170,11 +171,11 @@ ul li a:hover{
 .contact .content_contact h2{
     font-size: 36px;
     font-weight: 500;
-    color: black;
+    color: #fff;
 }
 .contact .content_contact p{
     font-weight: 300;
-    color: black;
+    color: #fff;
 }
 .container_contact{
     width: 100%;
