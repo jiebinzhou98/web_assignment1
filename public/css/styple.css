@@ -221,7 +221,7 @@ ul li a:hover{
 }
 .contactForm h2{
     font-size: 30px;
-    color: #333;
+    color: gray;
     font-weight: 500;
 }
 .contactForm .inputBox{
@@ -235,7 +235,7 @@ ul li a:hover{
     font-size: 16px;
     margin: 10px 0;
     border: none;
-    border-bottom: 2px solid #333;
+    border-bottom: 2px solid gray;
     outline: none;
     resize: none;
 }
