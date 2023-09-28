@@ -292,7 +292,7 @@ ul li a:hover{
 /* services */
 .services_title h1{
     text-align: center;
-    padding-top: 50px;
+    padding-top: 200px;
     font-size: 42px;
 }
 .services_title h1::after{
