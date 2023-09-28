@@ -147,27 +147,21 @@ ul li a:hover{
 .image_cal{
     display: grid;
     place-items: center;
+    width: min(35rem,90%);
 }
-.image_cal img{
-    width: min(35rem, 90%);
-    border-radius: 100%;
-}
+
 .image_car{
     display: grid;
     place-items: center;
-}
-.image_car img{
     width: min(35rem, 90%);
-    border-radius: 100%;
 }
+
 .image_proj{
     display: grid;
     place-items: center;
-}
-.image_proj img{
     width: min(35rem, 90%);
-    border-radius: 100%;
 }
+
 
 @media(width < 750px){
     nav .checkbox{
