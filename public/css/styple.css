@@ -158,7 +158,7 @@ ul li a:hover{
         grid-template-columns: repeat(1,1fr);
     }
     .image{
-        grid-area: 1/1/2/2;
+        grid-area: 2/2/1/1;
     }
 }
 
