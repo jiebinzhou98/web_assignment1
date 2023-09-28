@@ -6,7 +6,7 @@
     --secondary-color:#ca8a04;
     --text-dark:#1f2937;
     --text-light:#6b7280;
-    --extra-light:#faf5ff;
+    --extra-light:white;
     --max-width:1200px;
 }
 *{
@@ -122,6 +122,8 @@ ul li a:hover{
     color: var(--text-light);
     margin-bottom: 2rem;
 }
+
+/* imgae for about me */
 .image{
     display:grid;
     place-items: center;
@@ -131,6 +133,15 @@ ul li a:hover{
     border-radius: 100%;
 }
 
+/* image for home page */
+.image_home{
+    display:grid;
+    place-items: center;
+}
+.image_home img{
+    width: min(35rem,90%);
+    border-radius: 100%;
+}
 @media(width < 750px){
     nav .checkbox{
         display:block
@@ -158,6 +169,9 @@ ul li a:hover{
         grid-template-columns: repeat(1,1fr);
     }
     .image{
+        grid-area: 1/1/2/2;
+    }
+    .image_home{
         grid-area: 1/1/2/2;
     }
 }
