@@ -355,7 +355,7 @@ ul li a:hover{
     background-color: #c94f4f;
     transition: 0.4s ease;
 }
-@media screen and(max-width:940px){
+@media screen and (max-width:940px){
     .services{
         display: flex;
         flex-direction: column;
