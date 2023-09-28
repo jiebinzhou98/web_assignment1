@@ -139,9 +139,10 @@ ul li a:hover{
     place-items: center;
 }
 .image_home img{
-    width: min(35rem,90%);
+    width: min(35rem, 90%);
     border-radius: 100%;
 }
+
 @media(width < 750px){
     nav .checkbox{
         display:block
