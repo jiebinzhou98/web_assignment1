@@ -157,6 +157,9 @@ ul li a:hover{
         text-align: center;
         grid-template-columns: repeat(1,1fr);
     }
+    .image{
+        grid-area: 1/1/2/2;
+    }
 }
 
 
