@@ -316,6 +316,9 @@ ul li a:hover{
 
 
 /* services */
+.services_section{
+    background-color: #faf5ff;
+}
 .services_title h1{
     text-align: center;
     padding-top: 200px;
@@ -392,3 +395,9 @@ ul li a:hover{
         margin: 20px 0px;
     }
 }
+
+/* backgroud color for about */
+.section_about{
+    background-color: #faf5ff;
+}
+
