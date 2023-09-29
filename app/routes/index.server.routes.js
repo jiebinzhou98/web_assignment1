@@ -7,7 +7,12 @@ router.get('/',function(req,res,next){
 router.get('/home',function(req,res,next){
     res.render('home',{title: 'Home'})
 })
-
+router.get('/views/footer',function(req,res,next){
+    res.render('footer',{title: 'footer'})
+})
+router.get('/views/header',function(req,res,next){
+    res.render('header',{title: 'Header'})
+})
 router.get('/about',function(req,res,next){
     res.render('about',{title: 'About' });
 });
